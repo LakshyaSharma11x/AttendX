@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">attendx</string>
+    <string name="attendx">AttendX</string>
+    <string name="version">1.0.0</string>
 </resources>
