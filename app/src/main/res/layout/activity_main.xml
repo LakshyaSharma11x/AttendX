@@ -10,9 +10,22 @@
     <TextView
         android:layout_width="233dp"
         android:layout_height="80dp"
+        android:layout_marginBottom="100dp"
         android:text="Hello World!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.443"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchx" />
+
+    <Switch
+        android:id="@+id/switchx"
+        android:layout_width="125dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="92dp"
+        android:text="Switch"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

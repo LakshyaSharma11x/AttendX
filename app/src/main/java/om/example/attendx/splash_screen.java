@@ -27,7 +27,7 @@ public class splash_screen extends AppCompatActivity {
         Animation size = AnimationUtils.loadAnimation(this,R.anim.size);
         textAnimation.setAnimation(size);
 
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this,login_activity.class);
 
         new Handler().postDelayed(new Runnable() {
             @Override
